@@ -14,6 +14,9 @@
 		D4BB90DB2AB8B65100E414E0 /* Task_ManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB90DA2AB8B65100E414E0 /* Task_ManagementUITests.swift */; };
 		D4BB90E52AB8B65100E414E0 /* Task_ManagementUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB90E42AB8B65100E414E0 /* Task_ManagementUIUITests.swift */; };
 		D4BB90E72AB8B65100E414E0 /* Task_ManagementUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB90E62AB8B65100E414E0 /* Task_ManagementUIUITestsLaunchTests.swift */; };
+		D4BB90F82AB8B6F600E414E0 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB90F72AB8B6F600E414E0 /* Task.swift */; };
+		D4BB90FB2AB8B77800E414E0 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB90FA2AB8B77800E414E0 /* TaskViewModel.swift */; };
+		D4BB90FD2AB8B87A00E414E0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB90FC2AB8B87A00E414E0 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		D4BB90E02AB8B65100E414E0 /* Task ManagementUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Task ManagementUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4BB90E42AB8B65100E414E0 /* Task_ManagementUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_ManagementUIUITests.swift; sourceTree = "<group>"; };
 		D4BB90E62AB8B65100E414E0 /* Task_ManagementUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_ManagementUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4BB90F72AB8B6F600E414E0 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		D4BB90FA2AB8B77800E414E0 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		D4BB90FC2AB8B87A00E414E0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 		D4BB90C82AB8B65000E414E0 /* Task ManagementUI */ = {
 			isa = PBXGroup;
 			children = (
+				D4BB90F92AB8B76C00E414E0 /* ViewModel */,
+				D4BB90F42AB8B6E200E414E0 /* Model */,
+				D4BB90F32AB8B6DD00E414E0 /* View */,
 				D4BB90C92AB8B65000E414E0 /* Task_ManagementUIApp.swift */,
 				D4BB90CB2AB8B65000E414E0 /* ContentView.swift */,
 				D4BB90CD2AB8B65100E414E0 /* Assets.xcassets */,
@@ -125,6 +134,30 @@
 				D4BB90E62AB8B65100E414E0 /* Task_ManagementUIUITestsLaunchTests.swift */,
 			);
 			path = "Task ManagementUIUITests";
+			sourceTree = "<group>";
+		};
+		D4BB90F32AB8B6DD00E414E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4BB90FC2AB8B87A00E414E0 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D4BB90F42AB8B6E200E414E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4BB90F72AB8B6F600E414E0 /* Task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D4BB90F92AB8B76C00E414E0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D4BB90FA2AB8B77800E414E0 /* TaskViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +291,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4BB90CC2AB8B65000E414E0 /* ContentView.swift in Sources */,
+				D4BB90FB2AB8B77800E414E0 /* TaskViewModel.swift in Sources */,
+				D4BB90FD2AB8B87A00E414E0 /* Home.swift in Sources */,
+				D4BB90F82AB8B6F600E414E0 /* Task.swift in Sources */,
 				D4BB90CA2AB8B65000E414E0 /* Task_ManagementUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
